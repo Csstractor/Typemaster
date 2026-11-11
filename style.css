@@ -21,14 +21,17 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
+    background-color: #ffffff !important;
 
 }
 
 .wrapper {
     width: 100%;
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
     overflow: hidden;
-    background: var(--colors-neutral-0);
+    background: var(--colors-neutral-0) !important;
 
 }
 
@@ -173,9 +176,15 @@ body {
     margin-top: 24px;
 }
 
-.normal__photo {
-    margin-left: 24px;
+.wireless__photo-block{
+    display: flex;
+    gap: 8px;  
 }
+
+.orange__photo{
+    transform: translateX(-16px);
+}
+
 
 .wireless__text-block {
     display: block;
@@ -243,6 +252,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: auto;
 }
 
 .footer__title {
@@ -317,11 +327,19 @@ body {
         padding-inline: 32px;
     }
 
+    .wireless__photo-block{
+        gap: 32px;
+    }
+
     .wireless__text-block {
         margin-top: 40px;
         display: flex;
         justify-content: space-between;
 
+    }
+
+    .orange__photo{
+        transform: none;
     }
 
     .wirelesee__title {
@@ -433,10 +451,11 @@ body {
         justify-content: center;
     }
 
-    .wireless__inner {}
+    .wireless__desctop {
+        gap: 125px;
+    }
 
     .wireless__photo-block {
-        margin-inline-start: 130px;
         position: relative;
     }
 
