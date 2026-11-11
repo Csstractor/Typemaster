@@ -2,7 +2,7 @@
 
 A responsive landing page for a mechanical keyboard, built from a Figma design.
 
-🌐Live Demo
+Live Demo
 You can view the live site here: 
 https://cssractor.github.io/Typemaster/
 
